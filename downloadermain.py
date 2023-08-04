@@ -1,4 +1,7 @@
-for i in range(30):
-    print("hello world")
+from pytube import YouTube
+import os
 
-print("Hello world")
+url = input(str("Enter URL: "))
+video = YouTube(url)
+print("Downloading... ")
+
